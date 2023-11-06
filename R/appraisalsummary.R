@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' appraisalsummary(apprlinear)
+#' appraisalsummary(myin)
 appraisalsummary <- function(myin, simu=FALSE) {
   mynames <- names(myin$input)
   mylogp <- c("Expected log(p):          %10.2f  %10.2f  %10.2f",

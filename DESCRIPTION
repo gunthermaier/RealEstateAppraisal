@@ -1,10 +1,14 @@
 Package: RealEstateAppraisal
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Title: Data and Helper Functions for Real Estate Appraisal Book
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Gunther", "Maier", , "Gunther.Maier@modul.ac.at", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2290-9998")),
+    person("Shanaka", "Herath", , "Shanaka.Herath@uts.edu.au", role = c("aut"),
+           comment = c(ORCID = "0000-0002-7958-3274")))
+Description: This package provides data and helper functions for the code in
+  the book "Real Estate Appraisal with Hedonic Price Models" by Gunther Maier and
+  Shanaka Herath. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
